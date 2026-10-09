@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holmes · Política de privacidad</title>
+<meta name="description" content="Política de privacidad de Holmes, la extensión de Chrome de uso interno de PERC S.A.">
+<style>
+  :root { --bg:#ffffff; --ink:#111a2e; --sub:#4e5a73; --line:#d8dfec; --accent:#1d2748; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0e1118; --ink:#eef1f7; --sub:#a8b1c4; --line:#2a3142; --accent:#8fb0ff; } }
+  :root[data-theme="dark"] { --bg:#0e1118; --ink:#eef1f7; --sub:#a8b1c4; --line:#2a3142; --accent:#8fb0ff; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: var(--accent); }
+  h2 { font-size: 19px; margin: 32px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  p, li { color: var(--ink); }
+  .sub { color: var(--sub); font-size: 14px; margin: 0 0 24px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .nota { font-size: 14px; color: var(--sub); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Holmes · Política de privacidad</h1>
+  <p class="sub">Extensión de Chrome de uso interno de PERC S.A. · Última actualización: 9 de octubre de 2026</p>
+
+  <h2>1. Qué es Holmes y quién la usa</h2>
+  <p>Holmes es una herramienta interna de PERC S.A. (Argentina). La usan únicamente empleados y personas autorizadas por PERC para ver saldos, movimientos y reportes de las cuentas de la empresa y, según su rol, operarlas. No está dirigida al público general ni recolecta datos de usuarios de internet.</p>
+
+  <h2>2. Qué datos maneja</h2>
+  <ul>
+    <li><b>Datos de identificación del usuario:</b> nombre y correo de la cuenta de Google de PERC con la que el empleado inicia sesión, y su rol dentro de Holmes.</li>
+    <li><b>Datos de autenticación:</b> los tokens de sesión que el propio empleado genera al iniciar sesión en los sistemas internos de PERC y en los proveedores con los que PERC opera, y las claves de API de esos proveedores. Las claves se guardan cifradas y se descifran sólo en el navegador del empleado autorizado.</li>
+    <li><b>Datos financieros de PERC y de sus clientes:</b> saldos, movimientos, operaciones, cuentas bancarias y wallets de PERC, y los nombres, CUIT y saldos de los clientes de PERC que la empresa administra en el curso normal de su actividad.</li>
+    <li><b>Datos de trabajo:</b> configuraciones, notas internas y reportes que generan los propios empleados en la herramienta.</li>
+  </ul>
+
+  <h2>3. Para qué se usan</h2>
+  <p>Exclusivamente para la operación interna de PERC: consultar y conciliar saldos, armar la caja y los reportes de gestión, ejecutar operaciones autorizadas y enviar avisos internos. No se usan para publicidad, para crear perfiles de usuarios ni para evaluar crédito.</p>
+
+  <h2>4. Dónde se guardan</h2>
+  <ul>
+    <li>En el almacenamiento local del navegador del empleado (configuración y caché de datos ya consultados).</li>
+    <li>En la base de datos de PERC en Google Firebase (configuraciones compartidas, permisos, reportes), con acceso restringido por rol.</li>
+  </ul>
+
+  <h2>5. Con quién se comparten</h2>
+  <p>PERC no vende ni cede estos datos. Holmes se comunica sólo con los servicios que PERC usa para operar, y cada uno recibe únicamente lo necesario para la consulta u operación pedida:</p>
+  <ul>
+    <li>Sistemas internos de PERC.</li>
+    <li>Bancos y redes bancarias (por ejemplo, Interbanking), exchanges y custodios (Binance, Bitso, Kraken, Circle, Dakota, FV Bank y similares) donde PERC tiene cuentas.</li>
+    <li>Servicios de Google (inicio de sesión, Gmail, Sheets, Drive, Calendar, Firebase) en la cuenta de Google de PERC.</li>
+    <li>Proveedores de datos públicos de mercado y de blockchain (cotizaciones, exploradores de transacciones).</li>
+    <li>Servicios de inteligencia artificial contratados por PERC (Anthropic, Google Gemini), sólo para funciones internas como resumir notas o documentos, con las condiciones de uso empresarial de esos proveedores.</li>
+    <li>Herramientas internas de la empresa (por ejemplo, Telegram y Jira) para avisos y gestión de tareas.</li>
+  </ul>
+
+  <h2>6. Seguridad</h2>
+  <p>El acceso requiere una cuenta de Google de PERC autorizada; cada usuario ve y puede hacer sólo lo que su rol permite, y el acceso se puede revocar en cualquier momento. Las credenciales de los proveedores se guardan cifradas. Las comunicaciones se hacen por HTTPS.</p>
+
+  <h2>7. Conservación y baja</h2>
+  <p>Los datos locales se borran al desinstalar la extensión o al cerrar la sesión. Los datos guardados en la base de PERC se conservan mientras sean necesarios para la operación y las obligaciones legales de la empresa.</p>
+
+  <h2>8. Contacto</h2>
+  <p>Para consultas sobre esta política o sobre los datos que maneja Holmes: <a href="mailto:mcopello@perc.com.ar">mcopello@perc.com.ar</a>.</p>
+  <p class="nota">PERC S.A. · Buenos Aires, Argentina.</p>
+</main>
+</body>
+</html>
